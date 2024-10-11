@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: slategray;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.notification {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+
+.username:hover {
+    color:  rebeccapurple;
+    text-decoration: underline;
+}
+
+input, button {
+    margin: 8px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    color: chartreuse;
+    background-color: black;
+    border-radius: 30%;
+}
+
+button:hover {
+    background-color: rebeccapurple;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+th, td {
+    border: 2.5px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: wheat;
+    
+}
+
